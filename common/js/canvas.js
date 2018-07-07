@@ -23,8 +23,6 @@ var h;
     ct.lineWidth=5;
     ct.lineJoin="round";
     ct.lineCap="round";
-
-    //img埋め込み
     ct.globalAlpha="1";
   
     // clearCan();
@@ -75,19 +73,14 @@ var h;
     ct.stroke();
   }
   function clearCan(){
-    // w = $('#candiv').width();
-    // h = $('#candiv').height();
-    // $('#can').attr('width', w);
-    // $('#can').attr('height', h);
-    // ct=can.getContext("2d");
-    // ct.strokeStyle="#FFFFFF";
-    // ct.lineWidth=5;
-    // ct.lineJoin="round";
-    // ct.lineCap="round";
-
-    // //img埋め込み
-    // ct.globalAlpha="1";
-
-    // ct.fillRect(0,0,can.getBoundingClientRect().width,can.getBoundingClientRect().height);
-    mam_draw_init();
+    w = $('#candiv').width();
+    h = $('#candiv').height();
+    $('#can').attr('width', w);
+    $('#can').attr('height', h);
+    ct=can.getContext("2d");
+    ct.strokeStyle="#FFFFFF";
+    ct.lineWidth=5;
+    ct.lineJoin="round";
+    ct.lineCap="round";
+    ct.globalAlpha="1";
   }

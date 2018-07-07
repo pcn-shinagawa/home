@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -60,10 +60,10 @@
     <div class="header-detail" id="header-detail">
       <div class="header-detailItem js-detailItem" id="about">
         <div class="header-detailItemInner js-detailItemInner">
-          <h2 class="header-detailItem-title js-detailTitle"><a href="./contents/about/vision/" class="kodomofont">PCN品川について</a></h2>
+          <h2 class="header-detailItem-title js-detailTitle"><a href="/about/" class="kodomofont">PCN品川について</a></h2>
           <div class="header-detailItemInside header-detailItemInside--about">
             <ul class="header-detailItem-list">
-              <li><a href="./contents/about/vision" class="kodomofont">活動しょうかい</a></li>
+              <li><a href="./contents/about/vision.html" class="kodomofont">活動しょうかい</a></li>
               <li><a href="./contents/about/member" class="kodomofont">活動メンバー</a></li>
             <!-- /.header-detailItem-list -->
             </ul>
@@ -128,44 +128,8 @@
   <div class="container" id="container">
     <div class="overlay" id="overlay"></div>
     <main role="main">
-      <div>
-        <img src="./common/img/pict/bana3.png" class="headerPict">
-      </div>
-      <div class="topMedia" id="topMedia">
-        <img src="./common/img/main.jpg" class="topPict">
-        <div>
-          <div style="border:none;" id="candiv">
-              <input id="clean" type="button" onClick="clearCan();" value="絵を消す"　 class="kodomofont" data-inline="true" />
-              <text class="kodomofont" style="position: absolute;margin-top: 10%;font-size: 8em;color: #FFFFFF;z-index: 0;">こ う じ ち ゅ う</text>
-              <canvas id="can" width="100%" height="100%"></canvas>
-          </div>
-        </div>
-      <!-- /.mainVisual -->
-      </div>
 
-      <div class="topicsPanel" id="topicsPanel">
-        <div class="topicsPanel-wrap js-wrap">
-          <div class="topicsPanel-inner js-execute" data-sync-target="topics">
-            <!-- Template -->
-            <script class="js-template" type="text/x-jsrender">
-              <div class="topicsPanel-item js-item">
-                <a href="{{:url}}" target="{{:target}}">
-                  <div class="topicsPanel-thumb"><img src="{{:image}}" alt=""></div>
-                  <p class="topicsPanel-title">{{:title}}</p>
-                  <p class="topicsPanel-lead">{{:detail}}</p>
-                </a>
-              <!-- /.topicsPanel-item -->
-              </div>
-            </script>
-            <!-- /Template -->
-            <div class="topicsPanel-inside js-render"></div>
-          <!-- /.topicsPanel-inner -->
-          </div>
-        <!-- /.topicsPanel-wrap -->
-        </div>
-        <p class="topicsPanel-more"><a href="#" class="js-more"></a></p>
-      <!-- /.topicsPanel -->
-      </div>
+
 
 
 
