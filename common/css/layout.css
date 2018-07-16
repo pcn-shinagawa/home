@@ -860,7 +860,8 @@
 /* Footer
    ========================================================================== */
 .footer {
-  background-color: #4d3a32;
+  /*background-color: #4d3a32;*/
+  background-color: #418dff;
 }
 
 .footer-inner {
