@@ -6,7 +6,7 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>PCN品川 - 小学生・中学生向けプログラミング教室 - </title>
-  <base href="https://pcn-shinagawa.github.io/home/" target="main">
+  <base href="https://shinagawa.pcn.club" target="main">
   <meta name="description" content="PCN品川 - 品川区・大田区を中心にこども向けプログラミング教室を開催しています -">
   <meta name="keywords" content="PCN,pcn,PCN品川,ピーシーエヌ,">
   <meta name="robots" content="index, follow">
@@ -25,11 +25,11 @@
   <link rel="stylesheet" href="/home/common/css/infomation.css">
   <!-- <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/5B3B4677-4B9E-4F4C-941E-0D7961D60E54/main.js" charset="UTF-8"></script><script src="/home/common/js/analytics.js"></script>
   -->
-  <!-- Google Tag Manager -->
+  <!-- Google Tag Manager
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
   var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
   (window,document,'script','dataLayer','GTM-KG9NQT');</script>
-
+ -->
   <script type="text/javascript" src="/home/common/js/canvas.js"></script>
 
 </head>
@@ -42,7 +42,8 @@
   <!-- Google Tag Manager (noscript) --
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG9NQT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 -->
-
+<frameset>
+  <frame>
   <header class="header" id="header">
   <h1 class="header-id">
     <a href="/">
@@ -65,7 +66,7 @@
           <h2 class="header-detailItem-title js-detailTitle"><a href="/home/contents/about/vision/" class="kodomofont">PCN品川について</a></h2>
           <div class="header-detailItemInside header-detailItemInside--about">
             <ul class="header-detailItem-list">
-              <li><a href="/home/contents/about/vision" target="main" class="kodomofont">活動しょうかい</a></li>
+              <li><a href="/home/contents/about/vision" target="mainframe" class="kodomofont">活動しょうかい</a></li>
               <li><a href="/home/contents/about/member" class="kodomofont">活動メンバー</a></li>
             <!-- /.header-detailItem-list -->
             </ul>
@@ -125,7 +126,8 @@
   </nav>
 <!-- /.header -->
   </header>
-
+</frame>
+<frame name="mainframe">
 
   <div class="container" id="container" >
     <div class="overlay" id="overlay"></div>
@@ -160,9 +162,6 @@
             </li>
           </ul>
       </section>
-
-
-
     <!-- /main -->
     </main>
 
@@ -182,11 +181,10 @@
         </div>
       </div>
      <!-- /.footer -->
-    </footer>
-
-
   <!-- /.container -->
   </div>
+</footer>
+</frame>
   <script src="/home/common/js/libs.js"></script>
   <script src="/home/common/js/all.js"></script>
 </body>
